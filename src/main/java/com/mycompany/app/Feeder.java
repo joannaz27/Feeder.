@@ -4,6 +4,11 @@ public class Feeder {
      * The amount of food, in grams, currently in the bird feeder; initialized
      * in the constructor and always greater than or equal to zero
      */
+    public int getCurrentFood()
+    {
+        return currentFood;
+    }
+
     private int currentFood;
 
     /**
