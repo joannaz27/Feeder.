@@ -1,17 +1,9 @@
 public class Feeder {
-    public static void main(String[] args)
-    {
-        Feeder f = new Feeder();
-        System.out.println(f);
-        
-        //System.out.println(f.currentFood);
+
     /**
      * The amount of food, in grams, currently in the bird feeder; initialized
      * in the constructor and always greater than or equal to zero
      */
-    }
-    
-
     private int currentFood;
 
     /**
